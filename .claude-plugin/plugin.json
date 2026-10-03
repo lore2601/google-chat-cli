@@ -1,0 +1,12 @@
+{
+  "name": "gchat",
+  "description": "Teach Claude Code to read and send Google Chat messages safely with the gchat CLI.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Lorenzo Magnanelli"
+  },
+  "homepage": "https://github.com/lore2601/google-chat-cli",
+  "repository": "https://github.com/lore2601/google-chat-cli",
+  "license": "Apache-2.0",
+  "keywords": ["google-chat", "cli", "skills"]
+}
