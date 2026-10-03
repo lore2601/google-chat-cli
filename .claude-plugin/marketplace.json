@@ -11,7 +11,7 @@
       "name": "gchat",
       "source": "./",
       "description": "Skill for the gchat CLI: read, search and send Google Chat messages with safety rails.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "category": "productivity"
     }
   ]

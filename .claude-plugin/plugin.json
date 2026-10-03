@@ -1,7 +1,7 @@
 {
   "name": "gchat",
   "description": "Teach Claude Code to read and send Google Chat messages safely with the gchat CLI.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Lorenzo Magnanelli"
   },

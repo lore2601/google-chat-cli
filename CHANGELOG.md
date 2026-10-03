@@ -6,6 +6,16 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-03
+
+### Added
+
+- First release published to PyPI (`pipx install google-chat-cli`).
+
+### Changed
+
+- The release workflow can be re-run safely: it updates an existing GitHub release.
+
 ## [0.1.0] - 2026-10-03
 
 ### Added
@@ -26,5 +36,6 @@ All notable changes to this project are documented here. The format follows
 - Retries with exponential backoff on 429/5xx.
 - Agent skill (`skills/gchat/SKILL.md`) and Claude Code plugin marketplace manifest.
 
-[Unreleased]: https://github.com/lore2601/google-chat-cli/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/lore2601/google-chat-cli/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/lore2601/google-chat-cli/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/lore2601/google-chat-cli/releases/tag/v0.1.0

@@ -1,6 +1,7 @@
 # gchat: Google Chat from the command line
 
 [![CI](https://github.com/lore2601/google-chat-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/lore2601/google-chat-cli/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/google-chat-cli)](https://pypi.org/project/google-chat-cli/)
 [![CodeQL](https://github.com/lore2601/google-chat-cli/actions/workflows/codeql.yml/badge.svg)](https://github.com/lore2601/google-chat-cli/actions/workflows/codeql.yml)
 [![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue)](pyproject.toml)
 [![License](https://img.shields.io/badge/license-Apache--2.0-green)](LICENSE)
@@ -39,15 +40,15 @@ The design borrows proven ideas from [googleworkspace/cli](https://github.com/go
 Requires Python 3.11+.
 
 ```bash
-uv tool install git+https://github.com/lore2601/google-chat-cli   # or:
+pipx install google-chat-cli        # or: uv tool install google-chat-cli
+# latest development version:
 pipx install git+https://github.com/lore2601/google-chat-cli
-# once published on PyPI:  uv tool install google-chat-cli
 ```
 
 Optional: store the token in the OS keyring instead of a file:
 
 ```bash
-pipx install "google-chat-cli[keyring] @ git+https://github.com/lore2601/google-chat-cli"
+pipx install "google-chat-cli[keyring]"
 export GCHAT_TOKEN_STORE=keyring
 ```
 
